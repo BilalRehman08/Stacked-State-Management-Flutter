@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stacked_practice/ui/views/home/home_view.dart';
+import 'package:stacked_practice/ui/views/startup/startup_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeView()
+      home: const StartupView()
     );
   }
 }
